@@ -135,4 +135,8 @@ List of movies sorted by the rating field.
 - Example:
    - GET `/movies?page=2&limit=5`
 - Response :
+<<<<<<< HEAD
 Paginated list of movies, showing results for page 2 with a limit of 5 movies per page.
+=======
+Paginated list of movies, showing results for page 2 with a limit of 5 movies per page.
+>>>>>>> 94c347e00ec3ff8a0fbaaf247f9a7b5b384a4fe7
