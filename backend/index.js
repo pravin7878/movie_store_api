@@ -4,8 +4,9 @@ const connectToDB = require("./src/config/db");
 const mongoose = require("mongoose");
 const movieRoutes = require("./src/routes/movie.routes");
 
+
 const app = express();
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 app.use(express.json())
 
